@@ -1,0 +1,37 @@
+import { CosmoType } from "./base/CosmoType";
+export declare class CosmoNumber extends CosmoType {
+    private minProperty?;
+    private maxProperty?;
+    private multipleOfProperty?;
+    private integerProperty?;
+    private naturalProperty?;
+    private wholeProperty?;
+    private negativeProperty?;
+    private greaterProperty?;
+    private lessProperty?;
+    private precisionProperty?;
+    private portProperty?;
+    private absoluteProperty?;
+    private floatProperty?;
+    private roundProperty?;
+    private requiredProperty?;
+    private defaultProperty?;
+    constructor();
+    min(value: number): this;
+    max(value: number): this;
+    multipleOf(value: number): this;
+    integer(value?: boolean): this;
+    natural(value?: boolean): this;
+    whole(value?: boolean): this;
+    negative(value?: boolean): this;
+    greater(value: number): this;
+    less(value: number): this;
+    precision(value: number): this;
+    port(value?: boolean): this;
+    absolute(value?: boolean): this;
+    float(value?: boolean): this;
+    round(value: number): this;
+    required(value?: boolean): this;
+    default(value: number): this;
+    validate(value: any): any;
+}

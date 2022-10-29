@@ -1,0 +1,11 @@
+{
+  "name": "cosmo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index"
+  },
+  "author": "NeilScienceguy1 <theoriginalboommakers@gmail.com>",
+  "license": "ISC"
+}
